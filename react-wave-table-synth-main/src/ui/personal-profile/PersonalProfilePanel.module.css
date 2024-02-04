@@ -1,0 +1,43 @@
+.mainContainer
+{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+
+    padding: 10px;
+    margin: 0px;
+}
+
+.bgImage
+{
+    height: 32px;
+    width: 32px;
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+
+    filter: brightness(0.5) drop-shadow(3px 3px 4px hsl(0, 0%, 10%));
+
+    z-index: 100;
+}
+
+.bgImage:hover
+{
+    filter: brightness(0.6) drop-shadow(4px 4px 6px hsl(0, 0%, 5%));
+}
+
+.linkedInLink
+{
+    background-image: url("./linkedin-plain.svg");
+}
+
+.gitHubLink
+{
+    background-image: url("./github-original.svg");
+}
